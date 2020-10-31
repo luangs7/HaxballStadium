@@ -1,13 +1,5 @@
-		var room = HBInit({
-			autoStart: true,
-			roomName: "SBL Stadium",
-			playerName: "ᴮᴼᵀ",
-			maxPlayers: 16,
-			public: true,
-			noPlayer: false,
-			token: "thr1.AAAAAF-XYk1my_AkayuMWA.97mMCrNAZVc",
-			geo: {"code": "br", "lat": -23.5598795, "lon": -46.6615212}
-		});
+		var room = HBInit();
+		
 		room.setDefaultStadium("Big");
 		room.setScoreLimit(3);
 		room.setTimeLimit(4);
